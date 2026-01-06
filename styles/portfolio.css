@@ -288,3 +288,12 @@ form textarea:focus {
 form textarea::placeholder {
   font-size: 20px;
 }
+
+footer p {
+  font-size: 20px;
+  font-style: italic;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #757575;
+  font-weight: 500;
+}
