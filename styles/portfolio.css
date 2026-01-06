@@ -239,6 +239,9 @@ header {
   line-height: 28px;
 }
 
+.align-center-1 {
+  text-align: center;
+}
 .align-center {
   text-align: center;
   margin-top: 50px;
