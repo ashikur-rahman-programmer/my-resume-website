@@ -159,6 +159,7 @@ header {
   color: #757575;
   line-height: 30px;
   margin-bottom: 30px;
+  text-align: start;
 }
 .about-info {
   display: flex;
