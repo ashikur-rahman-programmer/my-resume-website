@@ -153,7 +153,6 @@ header {
 .section-heading h2 {
   font-size: 35px;
   margin-bottom: 30px;
-  text-align: center;
 }
 .section-heading p {
   font-size: 18px;
@@ -243,4 +242,46 @@ header {
 .align-center {
   text-align: center;
   margin-top: 50px;
+}
+
+/* /////////
+footer
+/////////// */
+
+#footer {
+  margin-top: 113px;
+  background: #fff8f3;
+}
+
+.section-footer {
+  padding: 130px 0;
+  display: flex;
+  gap: 117px;
+}
+
+.footer-content .icon i {
+  margin-right: 24px;
+  font-size: 20px;
+  color: #fd6e0a;
+}
+form input,
+form textarea {
+  padding: 18px 30px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #757575;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: all 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #fd6e0a;
+  box-shadow: 0 0 0 3px rgba(253, 110, 10, 0.25);
+}
+form textarea::placeholder {
+  font-size: 20px;
 }
