@@ -96,7 +96,7 @@ header {
 }
 
 #banner {
-  margin: 66px 41px 0 230px;
+  margin: 66px 41px 0 260px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -134,4 +134,43 @@ header {
 #banner .banner-image img {
   width: 100%;
   vertical-align: middle;
+}
+
+/* ///////////// section about ///////////// */
+
+#about,
+#skill,
+#resume {
+  padding-top: 130px;
+}
+
+.section-about {
+  padding: 131px 157px;
+  text-align: center;
+  background: #fff8f3;
+}
+
+.section-heading h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.section-heading p {
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.about-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 30px;
+}
+.info-card p {
+  font-size: 20px;
+  color: #757575;
+}
+.info-card h4 {
+  font-size: 20px;
+  color: #474747;
 }
