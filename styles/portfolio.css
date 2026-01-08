@@ -92,11 +92,14 @@ nav .menu ul {
 
 /* hero banner  */
 header {
+  max-width: 1600px;
+  width: 100%;
   padding-top: 50px;
   background: url(../images/developer.png), url(../images/header_bg.png),
     #fff8f3;
   background-repeat: no-repeat;
   background-position: 23px 17px, right bottom;
+  margin: 0 auto;
 }
 
 #banner {
@@ -215,7 +218,9 @@ header {
 }
 
 /* //////////// resume //////////////// */
-
+#resume {
+  margin-bottom: 113px;
+}
 .section-resume {
   display: flex;
   gap: 71px;
@@ -258,7 +263,10 @@ footer
 /////////// */
 
 #footer {
-  margin-top: 113px;
+  max-width: 1600px;
+  width: 100%;
+  /* margin-top: 113px; */
+  margin: 0 auto;
   background: #fff8f3;
 }
 
