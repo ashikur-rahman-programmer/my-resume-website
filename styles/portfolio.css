@@ -26,7 +26,7 @@ nav {
   margin: 0 auto;
 }
 nav .logo h2 {
-  font-size: 45px;
+  font-size: 32px;
   font-weight: 800;
 }
 nav .logo h2 .orange-color {
@@ -41,7 +41,7 @@ nav .menu ul {
 .menu li a {
   text-decoration: none;
   padding: 18px 0;
-  font-size: 20px;
+  font-size: 16px;
   color: #474747;
   transition: all 0.3s;
 }
@@ -51,10 +51,10 @@ nav .menu ul {
 
 /* btn */
 .btn {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: white;
-  padding: 18px 35px;
+  padding: 15px 25px;
   border-radius: 5px;
   border: none;
   background: #fd6e0a;
@@ -70,11 +70,11 @@ nav .menu ul {
 }
 
 .btn-contact {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
-  margin-left: 30px;
+  margin-left: 15px;
   color: #fd6e0a;
-  padding: 17px 35px;
+  padding: 13px 25px;
   border-radius: 5px;
   border: 2px solid #fd6e0a;
   background: transparent;
@@ -98,7 +98,7 @@ header {
   background: url(../images/developer.png), url(../images/header_bg.png),
     #fff8f3;
   background-repeat: no-repeat;
-  background-position: 23px 17px, right bottom;
+  background-position: 23px 10px, right bottom;
   margin: 0 auto;
 }
 
@@ -119,12 +119,12 @@ header {
   margin-bottom: 5px;
 }
 #banner .banner-content h1 {
-  font-size: 60px;
+  font-size: 52px;
   color: #000;
   /* margin-bottom: 5px; */
 }
 #banner .banner-content .mb {
-  font-size: 44px;
+  font-size: 32px;
   color: #474747;
   margin-bottom: 20px;
   line-height: 30px;
